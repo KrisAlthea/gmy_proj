@@ -1,0 +1,35 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+*.conda
+*.env
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Ignore everything in data directory
+data/*
+
+# But do not ignore the pdf_files and output directories
+!data/pdf_files/
+!data/output/
+
+# If you want to track files inside pdf_files and output subdirectories, include this line
+!data/pdf_files/**
+!data/output/**
