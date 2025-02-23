@@ -31,5 +31,5 @@ data/*
 !data/output/
 
 # If you want to track files inside pdf_files and output subdirectories, include this line
-!data/pdf_files/**
-!data/output/**
+#!data/pdf_files/**
+#!data/output/**
